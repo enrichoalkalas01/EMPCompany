@@ -1,0 +1,294 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f1f1f1;
+	width: 100%;
+	font-family: Arial;
+}
+
+header {
+	position: relative;
+	max-width: 100%;
+	margin: auto;
+	padding: 10px;
+	/*background: rgba(45, 52, 54,1.0);*/
+	box-sizing: border-box;
+	/*border-radius: 3px;*/
+	/*box-shadow: 0 2px 5px rgba(0,0,0,0.2);*/
+}
+
+.logo {
+	color: #f9ca24;
+	font-family: 'ZCOOL KuaiLe';
+	height: 60px;
+	font-size: 30px;
+	line-height: 60px;
+	padding: 0 50px;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+	font-weight: 700;
+	text-decoration: none !important;
+}
+
+.logo:hover {
+	color: #f9ca24;
+	text-shadow: 5px 5px 10px rgba(25,25,25,0.5); 
+}
+
+nav {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	display: block;
+	margin: 10px 0;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 550;
+}
+
+nav ul li a.active, 
+nav ul li a:hover {
+	background: #686de0;
+	color: #dff9fb;
+	transition: 0.5s;
+	box-shadow: 3px 3px 10px rgba(35,35,35,0.8);
+	border-radius: 3px;
+	font-size: 17px;
+	font-weight: 550;
+	text-shadow: 3px 3px 10px rgba(24,24,24,0.3);
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.background {
+	background: url(../images/empservice-ok.jpg) no-repeat;
+	background-size: 100%;
+	background-position: 0 -100px;
+	width: 100%;
+	height: 640px;
+}
+
+.h1-emp-s {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 100px;
+	/*text-transform: uppercase;*/
+	color: #f1f2f6;
+	text-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+	text-align: center;
+	padding-top: 175px;
+}
+
+.inside-background {
+	background-color: rgba(0,0,0,0.9);
+	background-size: 100%;
+	width: 100%;
+	height: 640px;
+}
+
+/*Page1*/
+.inner-es {
+	background: #ecf0f1;
+	width: 100%;
+	height: 2300px;
+}
+
+.content {
+	float: left;
+	margin: 10px 99px;
+	
+}
+
+.inside {
+	padding-left: 120px;
+	position: absolute;
+}
+
+img {
+	float: left;
+	width: 275px;
+	height: 400px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #DFDDC5;
+	box-shadow: 5px 5px 10px rgba(25,25,25,0.5);
+}
+
+.border-gd {
+	padding: 30px;
+	float: left;
+	width: 1080px;
+	margin: 50px 0;
+	background: none;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 1px;
+	border-color: grey;
+}
+
+.gd-content {
+	padding: 30px 0;
+	float: left;
+}
+
+.text-gd {
+	width: 400px;
+	height: 400px;
+	/*background: grey;*/
+	float: left;
+	margin-left: 35px;
+}
+
+.h1-gd {
+	font-family: 'Rajdhani';
+	font-weight: 700;
+	color: #3E3C3C;
+	text-shadow: 2px 2px 3px rgba(25,25,25,0.3);
+	border-style: solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-color: #3E3C3C;
+}
+
+.p-gd {
+	font-family: 'Rajdhani';
+	font-weight: 500;
+	color: #3E3C3C;
+	font-size: 18px;
+	text-indent: 0.3in;
+	text-align: justify;
+}
+
+.dp {
+	margin: 10px 15px;
+	color: #3E3C3C;
+}
+
+.under-list {
+	font-family: 'Rajdhani';
+	font-weight: 500;
+	color: #3E3C3C;
+	font-size: 18px;
+	text-indent: 0.3in;
+	text-align: justify;
+	margin-top: 25px;
+}
+
+.vd-content {
+	padding: 30px;
+	float: left;
+	width: 1080px;
+	margin: 50px 0;
+	background: none;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 1px;
+	border-color: grey;
+}
+
+.text-vd {
+	width: 400px;
+	height: 400px;
+	/*background: grey;*/
+	float: left;
+	margin-left: 35px;
+}
+
+.h1-vd {
+	font-family: 'Rajdhani';
+	font-weight: 700;
+	color: #3E3C3C;
+	text-shadow: 2px 2px 3px rgba(25,25,25,0.3);
+	border-style: solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-color: #3E3C3C;
+}
+
+.p-vd {
+	font-family: 'Rajdhani';
+	font-weight: 500;
+	color: #3E3C3C;
+	font-size: 18px;
+	text-indent: 0.3in;
+	text-align: justify;
+}
+
+.dp {
+	margin: 10px 15px;
+	color: #3E3C3C;
+}
+
+.under-list {
+	font-family: 'Rajdhani';
+	font-weight: 500;
+	color: #3E3C3C;
+	font-size: 18px;
+	text-indent: 0.3in;
+	text-align: justify;
+	margin-top: 25px;
+}
+
+/*Contact*/
+.inner-contact{
+	background: #373234;
+	width: 100%;
+	height: 280px;
+}
+
+.h1-contact {
+	font-family: 'Maven Pro';
+	font-weight: 600;
+	font-size: 30px;
+	color: #F3ECE4;
+	text-align: center;
+	padding: 24px 0;
+	text-shadow: 3px 3px 7px rgba(0,0,0,0.5);
+}
+
+.phone {
+	width: 100px;
+	height: 100px;
+	background: #D84339;
+	border-radius: 100%;
+	display: inline-block;
+	box-shadow: 3px 3px 5px rgba(25,25,25,0.5);
+}
+
+.phone i {
+	line-height: 100px;
+	font-size: 35px;
+	color: #E8DCCC;
+	text-shadow: 3px 3px 3px rgba(25,25,25,0.5);
+}
+
+.p-phone {
+	color: #E8DCCC;
+	font-family: 'Rajdhani';
+	font-weight: 700;
+	padding-top: 15px;
+	font-size: 20px;
+	text-align: center;
+}
