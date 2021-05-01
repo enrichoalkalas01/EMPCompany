@@ -68,7 +68,7 @@
 						<a class="btn" href="https://www.behance.net/enrichoalk5fcf" target="_blank">
 							<i class="fab fa-behance"></i>
 						</a>
-						<a class="btn" href="https://www.instagram.com/enrichoalkalas/" target="_blank">
+						<a class="btn" href="https://github.com/enrichoalkalas01" target="_blank">
 							<i class="fab fa-github"></i>
 						</a>
 						<a class="btn" href="https://id.pinterest.com/enrichoalkalas/my-portofolio/" target="_blank">
